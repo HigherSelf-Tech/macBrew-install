@@ -158,6 +158,7 @@ brew install --cask figma
 #Crypto
 brew install --cask binance
 brew install --cask tradingview
+brew install exodus
 
 # At the bottom because it asks for sudo password
 brew install --cask zoom

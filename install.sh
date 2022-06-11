@@ -135,6 +135,7 @@ brew install redis
 brew install --cask navicat-premium-essentials
 brew install ruby-install
 brew install chruby
+brew install vips
 touch ~/.bash_profile
 touch ~/.zshrc
 echo "source /usr/local/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
@@ -146,6 +147,7 @@ brew install node
 brew install yarn
 brew install gawk
 ruby-install --latest
+ruby-install ruby 3.1.2
 ruby-install ruby 3.0.1
 ruby-install ruby 2.7.3
 

@@ -20,7 +20,7 @@ fi
 
 echo "✨✨✨"
 echo "Alright, awesome!  Let's get this Mac Rocking!"
-echo "Installing the basics: 1Password, Spotify, Chrome and Spectacle 🎧"
+echo "Installing the basics: 1Password, Spotify, Chrome, Raycast and Spectacle 🎧"
 echo "✨✨✨"
 brew install --cask spectacle
 sleep 3
@@ -28,6 +28,8 @@ open -a Spectacle
 brew install --cask 1password
 sleep 3
 open -a 1Password\ 7
+brew install --cask raycast
+sleep 3
 brew install --cask google-chrome
 sleep 3
 open -a Google\ Chrome

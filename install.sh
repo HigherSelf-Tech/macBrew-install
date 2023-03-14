@@ -131,8 +131,12 @@ brew install --cask visual-studio-code
 brew install --cask atom
 brew install --cask docker
 brew install --cask sizzy
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install node
 brew install gh
 brew install postgresql
+brew install planetscale/tap/pscale
+brew install mysql-client
 brew install redis
 brew install --cask navicat-premium-essentials
 brew install ruby-install
@@ -145,7 +149,6 @@ echo "source /usr/local/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
 echo "source /usr/local/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
 echo "source /usr/local/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
 
-brew install node
 brew install yarn
 brew install gawk
 ruby-install --latest

@@ -117,6 +117,7 @@ brew install --cask signal
 
 # OS Basics
 brew install --cask firefox
+brew install opera
 brew install --cask notion
 brew install --cask clocker
 brew install --cask transmission
@@ -134,6 +135,8 @@ brew install --cask sizzy
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install node
 brew install gh
+brew tap heroku/brew && brew install heroku
+brew install vercel-cli
 brew install postgresql
 brew install planetscale/tap/pscale
 brew install mysql-client

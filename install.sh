@@ -132,8 +132,11 @@ brew install --cask visual-studio-code
 brew install --cask atom
 brew install --cask docker
 brew install --cask sizzy
+
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install node
+npm install -g @sanity/cli
+
 brew install gh
 brew tap heroku/brew && brew install heroku
 brew install vercel-cli

@@ -140,7 +140,7 @@ npm install -g @sanity/cli
 brew install gh
 brew tap heroku/brew && brew install heroku
 brew install vercel-cli
-brew install postgresql
+brew install postgresql@13
 brew install planetscale/tap/pscale
 brew install mysql-client
 brew install redis

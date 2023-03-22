@@ -149,7 +149,10 @@ brew services start postgresql@13
 
 brew install planetscale/tap/pscale
 brew install mysql-client
+
 brew install redis
+brew services start redis
+
 brew install --cask navicat-premium-essentials
 brew install ruby-install
 brew install chruby

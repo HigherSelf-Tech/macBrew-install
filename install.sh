@@ -140,7 +140,13 @@ npm install -g @sanity/cli
 brew install gh
 brew tap heroku/brew && brew install heroku
 brew install vercel-cli
+
 brew install postgresql@13
+echo 'export PATH="/usr/local/opt/postgresql@13/bin:$PATH"' >> ~/.zshrc
+echo 'export LDFLAGS="-L/usr/local/opt/postgresql@13/lib"' >> ~/.zshrc
+echo 'export CPPFLAGS="-I/usr/local/opt/postgresql@13/include"' >> ~/.zshrc
+brew services start postgresql@13
+
 brew install planetscale/tap/pscale
 brew install mysql-client
 brew install redis
